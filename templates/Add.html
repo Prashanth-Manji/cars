@@ -1,0 +1,27 @@
+<head>
+    <title>Fav Car</title>
+
+<style>
+body {
+  background-image: url('https://wallpaperaccess.com/full/11207.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+</head>
+    
+    <body><center>
+    <h1>Enter your Favourite Car</h1>
+    <form action="" method="GET">
+        {%csrf_token%}
+        Full Name: <input type="text" name="fn"/><br/>
+        <br/>
+        Car Model: <input type="text" name="cm"/><br/>
+        <br/>
+        <input type="submit" value="Submit"/>
+    </form></center>
+    </body>
+    
+</html>
+    

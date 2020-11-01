@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+
+body {
+  background-image: url('https://papers.co/wallpaper/papers.co-bf26-bmw-rainbow-blue-purple-car-art-25-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body><center>
+    
+        <a class="nav-link active" href="{% url 'Add' %}"><button class="button button1">Enter your Fav Car Name Here</button></a>
+        </br>
+        </br>
+        <a class="nav-link active" href="{% url 'see' %}"><button class="button button1">Users Fav Cars List</button></a>
+      </center>
+</body>
+</html>
+
+
